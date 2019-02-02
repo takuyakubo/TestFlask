@@ -24,7 +24,7 @@ def data_(form):
 
 
 @app.route('/', methods=['GET'])
-def ret_word_data():
+def return_tmp_data():
     return data_(TmpView)
 
 
